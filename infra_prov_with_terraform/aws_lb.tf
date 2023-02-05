@@ -61,7 +61,7 @@ resource "aws_lb_listener_rule" "server-listener-rule" {
 
   condition {
     host_header {
-      values = ["terraform-test.maiempire.online"]
+      values = ["terraform-test.aliyo.rocks"]
     }
   }
 }

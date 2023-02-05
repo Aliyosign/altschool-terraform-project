@@ -1,7 +1,7 @@
 # Route53 settings
 
 variable "domain_name" {
-  default    = "maiempire.online"
+  default    = "aliyo.rocks"
   type        = string
   description = "Domain name"
 }
