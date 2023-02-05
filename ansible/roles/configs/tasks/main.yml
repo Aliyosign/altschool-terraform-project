@@ -19,7 +19,7 @@
 
 - name: print hostname on server
   shell: |
-    echo "<h1>This is server $(hostname -f)</h1>" >> "{{ var }}"
+    echo "<h1>This is server $(hostname -f)</h1>" > "{{ var }}"
 
 - name: apache2-backup-restart
   command: systemctl restart apache2
